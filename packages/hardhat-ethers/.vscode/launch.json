@@ -19,7 +19,7 @@
         },
         {
             "name": "Attach to Edge",
-            "port": 9222,
+            "port": 8545,
             "request": "attach",
             "type": "msedge",
             "webRoot": "${VersoriumX}"
