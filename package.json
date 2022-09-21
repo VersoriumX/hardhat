@@ -1,8 +1,9 @@
+
 {
   "name": "root",
   "version": "0.0.0",
   "author": "Nomic Labs LLC",
-  
+
   "license": "SEE LICENSE IN EACH PACKAGE'S LICENSE FILE",
   "private": true,
   "workspaces": [
