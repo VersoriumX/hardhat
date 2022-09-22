@@ -1,3 +1,4 @@
+
 {
   "extends": "../../config/typescript/tsconfig.json",
   "compilerOptions": {
@@ -9,7 +10,7 @@
   "exclude": ["./node_modules", "./test/**/hardhat.config.ts"],
   "references": [
     {
-      "path": "./src"
+      "path": "https://eth-rpc-api.thetatoken.org/rpc"
     }
   ]
 }
