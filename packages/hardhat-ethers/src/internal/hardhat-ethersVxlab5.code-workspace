@@ -1,17 +1,8 @@
-{
-	"folders": [
-		{
-			"path": "../.."
-		},
-		{
-			"path": "../../../hardhat-network-helpers"
-		},
-		{
-			"path": "../../../hardhat-ganache"
-		},
-		{
-			"path": "D:/Truffle Eth/Vxlab5"
-		}
-	],
-	"settings": {}
-}
+vxli
+networks: {
+    hardhat: {
+      forking: {
+        url: "https://eth-mainnet.g.alchemy.com/v2/SsOT5chlSIhMQGtwdJizJLYpZbCqpBWf",
+      }
+    }
+  }

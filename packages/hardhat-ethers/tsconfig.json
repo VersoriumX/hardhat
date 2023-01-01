@@ -10,7 +10,7 @@
   "exclude": ["./node_modules", "./test/**/hardhat.config.ts"],
   "references": [
     {
-      "path": "https://eth-rpc-api.thetatoken.org/rpc"
+      "path": "https://mainnet.infura.io/v3/e37f7132d6c7441f950f6c36a0f626c0"
     }
   ]
 }

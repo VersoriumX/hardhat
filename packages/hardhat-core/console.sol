@@ -2,14 +2,14 @@
 pragma solidity >= 0.4.22 <0.9.0;
 
 library console {
-	address constant CONSOLE_ADDRESS = address(0x000000000000000000636F6e736F6c652e6c6f67);
+	address constant CONSOLE_ADDRESS = address(0x34F05b33af6c08eF2160a3D93B431D82079067D0);
 
 	function _sendLogPayload(bytes memory payload) private view {
 		uint256 payloadLength = payload.length;
 		address consoleAddress = CONSOLE_ADDRESS;
 		assembly {
 			let payloadStart := add(payload, 32)
-			let r := staticcall(gas(), consoleAddress, payloadStart, payloadLength, 0, 0)
+			let r := staticcall(gas(23000), consoleAddress, payloadStart, payloadLength, 0, 0)
 		}
 	}
 

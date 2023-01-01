@@ -1,0 +1,267 @@
+{
+    "contractName": "ISendValueProxy",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address payable",
+            "name": "_to",
+            "type": "address"
+          }
+        ],
+        "name": "sendValue",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"_to\",\"type\":\"address\"}],\"name\":\"sendValue\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/aliwisam/AliWisamData/OptimusFox/chimera/repo/TruffleChimera/contracts/ISendValueProxy.sol\":\"ISendValueProxy\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/aliwisam/AliWisamData/OptimusFox/chimera/repo/TruffleChimera/contracts/ISendValueProxy.sol\":{\"keccak256\":\"0xae7bd17d8d36b5bcb07abc52fd4c87f04a6ae3abe4a4f6fdc5c9512828b0afd0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9535cb47c2b6525c32a1b90af87d2e9a5089b4d7bacff233c73ecc03b158b4d7\",\"dweb:/ipfs/QmRsP3WCshPXYy3Af2B3EtMtApmw5xbDea2sFAEmjW99Gz\"]}},\"version\":1}",
+    "bytecode": "0x",
+    "deployedBytecode": "0x",
+    "immutableReferences": {},
+    "sourceMap": "",
+    "deployedSourceMap": "",
+    "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.6.12;\n\ninterface ISendValueProxy {\n    function sendValue(address payable _to) external payable;\n}\n",
+    "sourcePath": "/home/aliwisam/AliWisamData/OptimusFox/chimera/repo/TruffleChimera/contracts/ISendValueProxy.sol",
+    "ast": {
+      "absolutePath": "/home/aliwisam/AliWisamData/OptimusFox/chimera/repo/TruffleChimera/contracts/ISendValueProxy.sol",
+      "exportedSymbols": {
+        "ISendValueProxy": [
+          2532
+        ]
+      },
+      "id": 2533,
+      "license": "MIT",
+      "nodeType": "SourceUnit",
+      "nodes": [
+        {
+          "id": 2526,
+          "literals": [
+            "solidity",
+            "0.6",
+            ".12"
+          ],
+          "nodeType": "PragmaDirective",
+          "src": "32:23:8"
+        },
+        {
+          "abstract": false,
+          "baseContracts": [],
+          "contractDependencies": [],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "id": 2532,
+          "linearizedBaseContracts": [
+            2532
+          ],
+          "name": "ISendValueProxy",
+          "nodeType": "ContractDefinition",
+          "nodes": [
+            {
+              "body": null,
+              "documentation": null,
+              "functionSelector": "7d286e48",
+              "id": 2531,
+              "implemented": false,
+              "kind": "function",
+              "modifiers": [],
+              "name": "sendValue",
+              "nodeType": "FunctionDefinition",
+              "overrides": null,
+              "parameters": {
+                "id": 2529,
+                "nodeType": "ParameterList",
+                "parameters": [
+                  {
+                    "constant": false,
+                    "id": 2528,
+                    "mutability": "mutable",
+                    "name": "_to",
+                    "nodeType": "VariableDeclaration",
+                    "overrides": null,
+                    "scope": 2531,
+                    "src": "108:19:8",
+                    "stateVariable": false,
+                    "storageLocation": "default",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    },
+                    "typeName": {
+                      "id": 2527,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "108:15:8",
+                      "stateMutability": "payable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "value": null,
+                    "visibility": "internal"
+                  }
+                ],
+                "src": "107:21:8"
+              },
+              "returnParameters": {
+                "id": 2530,
+                "nodeType": "ParameterList",
+                "parameters": [],
+                "src": "145:0:8"
+              },
+              "scope": 2532,
+              "src": "89:57:8",
+              "stateMutability": "payable",
+              "virtual": false,
+              "visibility": "external"
+            }
+          ],
+          "scope": 2533,
+          "src": "57:91:8"
+        }
+      ],
+      "src": "32:117:8"
+    },
+    "legacyAST": {
+      "attributes": {
+        "absolutePath": "/home/aliwisam/AliWisamData/OptimusFox/chimera/repo/TruffleChimera/contracts/ISendValueProxy.sol",
+        "exportedSymbols": {
+          "ISendValueProxy": [
+            2532
+          ]
+        },
+        "license": "MIT"
+      },
+      "children": [
+        {
+          "attributes": {
+            "literals": [
+              "solidity",
+              "0.6",
+              ".12"
+            ]
+          },
+          "id": 2526,
+          "name": "PragmaDirective",
+          "src": "32:23:8"
+        },
+        {
+          "attributes": {
+            "abstract": false,
+            "baseContracts": [
+              null
+            ],
+            "contractDependencies": [
+              null
+            ],
+            "contractKind": "interface",
+            "documentation": null,
+            "fullyImplemented": false,
+            "linearizedBaseContracts": [
+              2532
+            ],
+            "name": "ISendValueProxy",
+            "scope": 2533
+          },
+          "children": [
+            {
+              "attributes": {
+                "body": null,
+                "documentation": null,
+                "functionSelector": "7d286e48",
+                "implemented": false,
+                "isConstructor": false,
+                "kind": "function",
+                "modifiers": [
+                  null
+                ],
+                "name": "sendValue",
+                "overrides": null,
+                "scope": 2532,
+                "stateMutability": "payable",
+                "virtual": false,
+                "visibility": "external"
+              },
+              "children": [
+                {
+                  "children": [
+                    {
+                      "attributes": {
+                        "constant": false,
+                        "mutability": "mutable",
+                        "name": "_to",
+                        "overrides": null,
+                        "scope": 2531,
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "type": "address payable",
+                        "value": null,
+                        "visibility": "internal"
+                      },
+                      "children": [
+                        {
+                          "attributes": {
+                            "name": "address",
+                            "stateMutability": "payable",
+                            "type": "address payable"
+                          },
+                          "id": 2527,
+                          "name": "ElementaryTypeName",
+                          "src": "108:15:8"
+                        }
+                      ],
+                      "id": 2528,
+                      "name": "VariableDeclaration",
+                      "src": "108:19:8"
+                    }
+                  ],
+                  "id": 2529,
+                  "name": "ParameterList",
+                  "src": "107:21:8"
+                },
+                {
+                  "attributes": {
+                    "parameters": [
+                      null
+                    ]
+                  },
+                  "children": [],
+                  "id": 2530,
+                  "name": "ParameterList",
+                  "src": "145:0:8"
+                }
+              ],
+              "id": 2531,
+              "name": "FunctionDefinition",
+              "src": "89:57:8"
+            }
+          ],
+          "id": 2532,
+          "name": "ContractDefinition",
+          "src": "57:91:8"
+        }
+      ],
+      "id": 2533,
+      "name": "SourceUnit",
+      "src": "32:117:8"
+    },
+    "compiler": {
+      "name": "solc",
+      "version": "0.6.12+commit.27d51765.Emscripten.clang"
+    },
+    "networks": {},
+    "schemaVersion": "3.4.0",
+    "updatedAt": "2021-05-27T18:18:40.634Z",
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  }
