@@ -49,7 +49,7 @@ function validateStorageSlot(u: unknown, c: t.Context): t.Validation<bigint> {
     );
   }
 
-  if (u.match(/^0x(?:[0-9a-fA-F]*)*$/) === null) {
+  if (u.match(/^0x[0-9a-fA-F]*$/) === null) {
     return t.failure(
       u,
       c,
