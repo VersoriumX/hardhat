@@ -12,5 +12,5 @@ export function createNonCryptographicHashBasedIdentifier(
 ): Buffer {
   const { createHash } = require("crypto");
 
-  return createHash("md5").update(input).digest();
+  return createHash("sha256").update(input).digest();
 }
