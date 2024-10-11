@@ -20,7 +20,7 @@ async function complete(
   Array<{ name: string; description?: string }> | typeof HARDHAT_COMPLETE_FILES
 > {
   const point = lineWithCursor.indexOf("|");
-  const line = lineWithCursor.replace("|", "");
+  const line = lineWithCursor.replace(/\|/g, "");
 
   return completeFn({
     line,
